@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .parallax {
+            height: 100vh; /* Full height of the viewport */
+            background-image: url('./poze/arab.jpeg');
+            background-attachment: fixed; /* Key property for parallax */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content {
+            height: 100vh;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parallax"></div>
+
+    <div class="content">
+        <h1>Scroll Down</h1>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="content">
+        <h1>More Content Here</h1>
+    </div>
+
+    <div class="parallax"></div>
+
+</body>
+</html>
