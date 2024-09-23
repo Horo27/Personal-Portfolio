@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hororoi Alexandru</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:wght@200;300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    
+    <header>
+        <div class="container navbar">
+            <p class="logo">My Portofolio</p>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <section id="Home">
+        <div class="bg-container-1"></div> 
+        <div class="container hero-section">
+            <p class="hero-text">Hello there,<br>I'm Hororoi Alexandru</p>
+        </div>
+    </section>
+
+    <section id="About">
+        <div class="about-section">
+                    <h1 class="h1">About Me</h1>
+                    <p>I'm currently studying computer science at the <b>University of Bucharest</b>.<br>
+                        I work mainly with <b>HTML, CSS</b> and <b>JS</b> but i also posses good knowledge in <b>C, C++</b> and <b>Python</b>.<br>
+                        My designing is done using <b>Figma</b>.<br>
+                        On the side I've also worked with CMS like Wordpress.<br>
+                        From a young age I've been fascinated by technology and it's impact on the world.<br>
+                        Now my main focus is getting experience in the field of <b>Web Development</b>.
+                    </p>
+            
+            <img src="poze/Me2.jpeg" class="img">
+        </div>
+        <hr>
+    </section>
+
+    <div id="Projects-cp" class="anchor-projects"></div>
+    <section id="Projects">
+        <div class="project-section">
+            <h1 class="h1">My Projects</h1>
+            <div class="project">
+                <img src="./poze/movie fight.png" alt="Project 1">
+                <p><b>Movie Fight</b><br>
+                    HTML, CSS, JS
+                </p>
+                <div class="overlay">
+                    <a href="https://github.com/DaddyHoro/Movie-Fight" class="link" target="_blank">View Code</a>
+                    <a href="https://daddyhoro.github.io/Movie-Fight/" class="link" target="_blank">Visit Site</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./poze/start123.svg" alt="Project 2">
+                <p><b>NPO Website (Mobile only)</b><br>
+                    HTML, CSS
+                </p>
+                <div class="overlay">
+                    <a href="https://github.com/DaddyHoro/Start123" class="link" target="_blank">View Code</a>
+                    <a href="https://daddyhoro.github.io/Start123/" class="link" target="_blank">Visit Site</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./poze/personal portofolio.png" alt="Project 3">
+                <p><b>My Portofolio</b><br>
+                    HTML, CSS, JS
+                </p>
+                <div class="overlay">
+                    <a href="https://github.com/DaddyHoro/Personal-Portofolio" class="link" target="_blank">View Code</a>
+                    <a href="https://daddyhoro.github.io/Personal-Portofolio/" class="link" target="_blank">Visit Site</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./poze/example.jpg" alt="Project 4">
+                <p><b>Comming Soon</b><br>
+                    Hmm...
+                </p>
+                <div class="overlay">
+                    <a href="#" class="link" target="_blank">View Code</a>
+                    <a href="#" class="link" target="_blank">Visit Site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div id="Contact-cp" class="contact-section">
+            <h1 class="h1">Contact Me</h1>
+            <p>For more information regarding me or my work dont hestiate to contact me via email
+                 <a href="mailto:alexandru.hororoi@gmai.com" target="_blank">alexandru.hororoi@gmai.com</a>. <br>
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
